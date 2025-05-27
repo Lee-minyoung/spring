@@ -1,0 +1,72 @@
+package com.yedam;
+
+import jakarta.servlet.ServletContextEvent;
+import jakarta.servlet.ServletContextListener;
+import jakarta.servlet.ServletRequestAttributeEvent;
+import jakarta.servlet.ServletRequestAttributeListener;
+import jakarta.servlet.ServletRequestEvent;
+import jakarta.servlet.ServletRequestListener;
+
+/**
+ * Application Lifecycle Listener implementation class ApplicationListener
+ *
+ */
+public class ApplicationListener implements ServletContextListener, ServletRequestListener, ServletRequestAttributeListener {
+
+    /**
+     * Default constructor. 
+     */
+    public ApplicationListener() {
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+     * @see ServletRequestAttributeListener#attributeRemoved(ServletRequestAttributeEvent)
+     */
+    public void attributeRemoved(ServletRequestAttributeEvent srae)  { 
+         // TODO Auto-generated method stub
+    }
+
+	/**
+     * @see ServletContextListener#contextInitialized(ServletContextEvent)
+     */
+    public void contextInitialized(ServletContextEvent sce)  { 
+         // TODO Auto-generated method stub
+    }
+
+	/**
+     * @see ServletContextListener#contextDestroyed(ServletContextEvent)
+     */
+    public void contextDestroyed(ServletContextEvent sce)  { 
+         // TODO Auto-generated method stub
+    }
+
+	/**
+     * @see ServletRequestListener#requestInitialized(ServletRequestEvent)
+     */
+    public void requestInitialized(ServletRequestEvent sre)  { 
+         // TODO Auto-generated method stub
+    }
+
+	/**
+     * @see ServletRequestListener#requestDestroyed(ServletRequestEvent)
+     */
+    public void requestDestroyed(ServletRequestEvent sre)  { 
+         // TODO Auto-generated method stub
+    }
+
+	/**
+     * @see ServletRequestAttributeListener#attributeReplaced(ServletRequestAttributeEvent)
+     */
+    public void attributeReplaced(ServletRequestAttributeEvent srae)  { 
+         // TODO Auto-generated method stub
+    }
+
+	/**
+     * @see ServletRequestAttributeListener#attributeAdded(ServletRequestAttributeEvent)
+     */
+    public void attributeAdded(ServletRequestAttributeEvent srae)  { 
+         // TODO Auto-generated method stub
+    }
+	
+}

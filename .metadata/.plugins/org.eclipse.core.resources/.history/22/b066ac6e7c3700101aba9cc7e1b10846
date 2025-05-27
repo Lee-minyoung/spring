@@ -1,0 +1,12 @@
+package com.yedam.app.di;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+        // LgTV tv = new LgTV();
+        SamsungTV tv = new SamsungTV();
+    	tv.powerOn();
+        tv.volumeUp();
+    }
+}

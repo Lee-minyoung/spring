@@ -1,0 +1,19 @@
+package com.yedam.web;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.junit.Test;
+
+public class MapTest {
+
+	@Test
+	public void test1() {
+		// 제네릭타입
+		Map<String, String> map = new HashMap<>();
+		map.put("first_name", "scott");
+		map.put("last_name", "king");
+		
+		String name = map.get("first_name");
+	}
+}

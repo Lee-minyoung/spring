@@ -1,0 +1,12 @@
+package com.yedam.app.di;
+
+import org.junit.Test;
+
+public class ConstructorTest {
+
+	@Test
+	public void 기본생성자() {
+		employee emp = new Employee();
+		
+	}
+}

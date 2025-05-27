@@ -1,0 +1,6 @@
+package com.yedam.web.dao;
+
+public class TimeDAOImpl implements TimeDAO{
+	
+
+}

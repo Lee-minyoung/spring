@@ -1,0 +1,20 @@
+package com.yedam.web.model;
+
+import lombok.Data;
+
+@Data
+
+public class Employees {
+	public String employee_id;
+	public String first_name;
+	public String last_name;
+	public String email;
+	public String phone_number;
+	public String hire_date;
+	public String job_id;
+	public String salary;
+	public String commission_pct;
+	public String manager_id;
+	public String department_id;
+
+}

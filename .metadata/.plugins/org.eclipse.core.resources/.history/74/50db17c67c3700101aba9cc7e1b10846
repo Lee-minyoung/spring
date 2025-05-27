@@ -1,0 +1,13 @@
+package com.yedam.app.di;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	// 상속과 다형성
+        // TV tv = new LgTV();
+        Samsung TV tv = new SamsungTV();
+    	tv.powerOn();
+        tv.volumeUp();
+    }
+}

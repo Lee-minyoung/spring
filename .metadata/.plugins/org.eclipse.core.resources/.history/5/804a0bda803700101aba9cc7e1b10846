@@ -1,0 +1,6 @@
+package com.yedam.app.di;
+
+public class ContextConfigure {
+	
+	@Bean
+}

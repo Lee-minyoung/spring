@@ -1,0 +1,10 @@
+package com.yedam.web.dao;
+
+public class TimeDAOImpl implements TimeDAO{
+	@Autowired SqlSession
+	@Override
+	public String getTime() {
+		return null;
+	}
+
+}

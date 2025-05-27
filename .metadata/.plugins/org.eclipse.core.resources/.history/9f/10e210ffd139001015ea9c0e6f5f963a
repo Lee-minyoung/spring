@@ -1,0 +1,6 @@
+package com.yedam.web;
+
+public class TimeMapperTest {
+	@Setter(onMethod_ = {@Autowired})
+	TimeMapper timeMapper;
+}

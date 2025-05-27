@@ -1,0 +1,13 @@
+package com.yedam.web.mapper;
+
+import java.util.List;
+import java.util.Map;
+
+import com.yedam.web.model.Employees;
+
+public interface EmpMapper {
+
+	List<Employees> findAll(); 
+	List<Map> findAlltoMap();
+	int getCount();
+}

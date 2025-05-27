@@ -1,0 +1,14 @@
+package com.yedam.web;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller 	// 컨트롤러화, 빈등록(@Component 상속)
+public class EmpController {
+	
+	@GetMapping("/empList")
+	public String empList() {
+		return "empList";
+	}
+
+}

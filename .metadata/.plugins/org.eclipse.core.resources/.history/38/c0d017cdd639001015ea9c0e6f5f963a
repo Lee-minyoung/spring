@@ -1,0 +1,12 @@
+package com.yedam.web.dao;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class TimeDAOImpl implements TimeDAO{
+	@Autowired SqlSession
+	@Override
+	public String getTime() {
+		return null;
+	}
+
+}

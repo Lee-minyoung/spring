@@ -1,0 +1,5 @@
+package com.yedam.web.model;
+
+public class SearchVO {
+
+}
