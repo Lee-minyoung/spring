@@ -1,0 +1,24 @@
+package com.yedam.web;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import com.yedam.domain.SampleDTO;
+
+@Controller
+public class SampleController {
+
+	@GetMapping("/ex01")
+	public String ex01(SampleDTO sample, Model model) {
+		System.out.println(sample);
+		model.addAttribute("dept", "개발");
+		return "main";
+	}
+
+	@GetMapping("/ex02")
+	public String ex02(@RequestParam String name) {
+		return "main";
+	}
+}
