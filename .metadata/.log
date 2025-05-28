@@ -1217,3 +1217,12 @@ java.lang.NullPointerException: Cannot invoke "org.eclipse.m2e.core.project.IMav
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-27 14:25:55.510
 !MESSAGE Classpath changed for project: sp05
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-27 17:22:57.014
+!MESSAGE Classpath changed for project: sp05
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-27 17:22:57.098
+!MESSAGE Classpath changed for project: sp05
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-27 17:22:58.228
+!MESSAGE Classpath changed for project: sp05
