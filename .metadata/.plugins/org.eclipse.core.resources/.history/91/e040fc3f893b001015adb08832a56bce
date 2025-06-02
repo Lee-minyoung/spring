@@ -1,0 +1,25 @@
+package com.yedam.board.web;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.yedam.board.service.BoardService;
+
+import lombok.RequiredArgsConstructor;
+
+@Controller
+@RequestMapping("/board")
+@RequiredArgsConstructor
+public class BoardController {
+
+	final BoardService boardService;
+	
+	@GetMapping("/list")
+	public String getMethodName(Model model) {		
+		model.addAttribute("list",boardService.getList());
+		return "board/list";
+	}
+	
+}

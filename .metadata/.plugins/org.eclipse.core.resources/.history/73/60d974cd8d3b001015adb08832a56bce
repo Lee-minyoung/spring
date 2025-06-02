@@ -1,0 +1,46 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div class="row">
+		<div class="col-lg-12">
+			<h1 class="page-header">Board Register</h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="panel panel-default">
+
+			<div class="panel-heading">Board Register</div>
+			<div class="panel-body">
+
+				<form role="form" action="/board/register" method="post">
+					<divclass="form-group"> <label>Title</label>
+					<input class="form-control" name='title'>
+			</div>
+			
+			<div>
+			<label>Text area</label>
+			<textarea rows="3"></textarea>
+			</div>
+			<label>Writer</label>
+			<textarea rows="3"></textarea>
+			</div>
+			<button type="submit">Submit</button>
+			<button type="reset">Reset</button>
+			</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+
+<!-- 
+action='<c:out value="/board/register" />'

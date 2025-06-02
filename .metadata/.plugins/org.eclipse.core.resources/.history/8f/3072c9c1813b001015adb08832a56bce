@@ -1,0 +1,29 @@
+package com.yedam.board.web;
+
+import java.util.List;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.yedam.board.service.BoardService;
+import com.yedam.board.service.BoardVO;
+
+import lombok.RequiredArgsConstructor;
+
+@Controller
+@RequestMapping("/board")
+@RequiredArgsConstructor
+public class BoardController {
+
+	final BoardService boardService;
+	
+	@GetMapping("/list")
+	@ResponseBody
+	public List<BoardVO> getMethodName(Model model) {		
+		return boardService.getList();
+	}
+	
+}

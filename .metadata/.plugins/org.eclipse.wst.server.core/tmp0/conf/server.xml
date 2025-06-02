@@ -142,7 +142,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\eGovFrameDev-4.3.0-64bit\workspace-egov\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\eGovFrameDev-4.3.0-64bit\workspace-egov\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\web" path="/web" reloadable="true" source="org.eclipse.jst.jee.server:web"/><Context docBase="C:\eGovFrameDev-4.3.0-64bit\workspace-egov\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\sp05" path="/sp05" reloadable="true" source="org.eclipse.jst.jee.server:sp05"/></Host>
+      <Context docBase="C:\eGovFrameDev-4.3.0-64bit\workspace-egov\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\web" path="/web" reloadable="true" source="org.eclipse.jst.jee.server:web"/><Context docBase="C:\eGovFrameDev-4.3.0-64bit\workspace-egov\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\sp05" path="/sp05" reloadable="true" source="org.eclipse.jst.jee.server:sp05"/><Context docBase="C:\eGovFrameDev-4.3.0-64bit\workspace-egov\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\springTemplate" path="" reloadable="true" source="org.eclipse.jst.jee.server:springTemplate"/></Host>
     </Engine>
   </Service>
 </Server>
