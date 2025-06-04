@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="TimeMapperTest" project="sp03" tests="2" started="2" failures="0" errors="0" ignored="0">
-  <testsuite name="com.yedam.web.TimeMapperTest" time="0.202">
-    <testcase name="getTime" classname="com.yedam.web.TimeMapperTest" time="0.2"/>
-    <testcase name="getTime2" classname="com.yedam.web.TimeMapperTest" time="0.001"/>
-  </testsuite>
-</testrun>
