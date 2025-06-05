@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+ <html xmlns:th="http://www.thymeleaf.org">
+ <head>
+ <meta charset="UTF-8">
+ <title>Insert title here</title>
+ </head>
+ <body>
+ <table>
+  <tr>
+    <th>employee_id</th>
+    <th>first_name</th>
+    <th>last_name</th>
+  </tr>
+  <tr th:each="emp,st : ${empList}">
+    <td>[[${st.index}]]</td>
+    <td>[[${emp.employeeId}]]</td>
+    <td>[[${emp.firstName}]]</td>
+    <td th:text="${emp.lastName}">홍</td>
+    <td th:text="${emp.hireDate}">2000-10-10</td>
+  </tr>
+ </table>
+ </body>
+ </html>
